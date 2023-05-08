@@ -1,0 +1,185 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body {
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+header {
+    width: 100%;
+    height: fit-content;
+    position: absolute;
+    z-index: 100;
+    display: inline-flex;
+    justify-content: space-between;
+    padding: 10px 10px 0;
+}
+header button {
+    background-color: #e50914;
+    color: white;
+    display: inline-block;
+    padding: 8px 10px;
+    margin-right: 37px;
+    border-radius: 3px;
+    height: fit-content;
+    font-size: 15px;
+    border: none;
+    outline: none;
+}
+header select {
+    background: linear-gradient(180deg, rgba(0, 8, 29, 0.9) 23.83%, rgba(0, 8, 29, 0.3) 96.1%);
+    padding: 8px;
+    font-weight: bold;
+    margin-top: 0px;
+    width: fit-content;
+    color: white;
+    font-size: 15px;
+}
+.header-right {
+    display: flex;
+    justify-content: space-around;
+}
+
+main {
+    height: 80vh;
+    max-width: 1824px;
+    background-image: linear-gradient(180deg, rgba(0, 8, 29, 0.9) 23.83%, rgba(0, 8, 29, 0.3) 96.1%),
+    url('/assets/img/Netflix-Background-Oficial.jpg');
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: relative;
+    padding: 140px 40px 0px;
+}
+.layout-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: left;
+}
+main h1 {
+    font-size: 56px;
+    padding-top: 16px;
+}
+main p {
+    font-size: 18px;
+    padding-top: 16px;
+}
+
+.form-cta {
+    padding-top: 16px;
+    position: relative;
+}
+.form-cta input {
+    padding: 28px 18px 15px;
+    width: 400px;
+    border: 1px solid gray;
+    outline: none;
+    font-size: 10px;
+    background: linear-gradient(180deg, rgba(0, 8, 29, 0.9) 23.83%, rgba(0, 8, 29, 0.3) 96.1%);
+}
+.form-cta input::placeholder {
+    font-size: 16px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: flex-start;
+    font-weight: bold;
+}
+.form-cta button {
+    width: 172.16px;
+    padding: 12px 24px;
+    border-radius: 4px;
+    font-size: 24px;
+    color: white;
+    background-color: #e50914;
+    outline: none;
+    border: none;
+    text-align: center;
+    width: fit-content;
+}
+
+.section {
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.main-row {
+    width: 100%;
+    padding: 0 8% 0;
+    width: fit-content;
+    display: flex;
+    align-content: space-around;
+}
+
+.illustrative-content {
+    width: 270px;
+    height: 236px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 1.625rem min(10%, 2.5rem) 4.75rem min(10%, 2.5rem);
+    background: linear-gradient(164deg, rgba(136,2,52,1) 0%, rgba(29,4,88,1) 45%, rgba(29,4,88,1) 100%);
+    border-radius: 10px;
+    margin: 12px 0 0 12px;
+}
+
+.perguntas-frequentes {
+    margin: 52px 0px 0px;
+    padding: 0px 40px 96px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: center;
+}
+
+.faq-card {
+    background-color: #223362;
+    color: white;
+    margin: 5px 52px 5px;
+    max-width: 90%;
+    justify-content: center;
+}
+.faq-question {
+    padding: 25px;
+    background-color: #223362;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: justify;
+    background-color: transparent;
+    border: none;
+}
+.faq-answer {
+    border-top: 1px solid #10032d;
+    padding: 24px;
+}
+
+footer{
+    font-size: 14px;
+    display: flex;
+    aligm-content: space-around;
+}
+.footer-card {
+    margin: 3.5%;
+}
+.footer-card a {
+    color: white;
+    font-size: 14px;
+}
+select {
+    margin: 3.5%;
+    background: transparent;
+    padding: 6px;
+    font-weight: bold;
+    width: fit-content;
+    color: white;
+    font-size: 15px;
+}
